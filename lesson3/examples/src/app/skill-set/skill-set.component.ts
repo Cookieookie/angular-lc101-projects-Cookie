@@ -5,11 +5,12 @@ import { Component, OnInit } from '@angular/core';
    templateUrl: './skill-set.component.html',
    styleUrls: ['./skill-set.component.css']
 })
+
 export class SkillSetComponent implements OnInit {
    listHeading: string = 'Some Coding Skills I Know';
    skills: string[] = ['Loops', 'Conditionals', 'Functions', 'Classes', 'Modules', 'Git', 'HTML/CSS'];
-   alternateColor: string = 'black';
-   bulletType: string = 'A';
+   alternateColor: string = 'green';
+   bulletType: string = '1';
    changeColor: boolean = true;
 
    constructor() { }
